@@ -12,6 +12,6 @@ The [Lights Commander] Commands one or many Light Controllers
 The [VoffCon] A control card and a control used to send commands to the 
 Lights Commander
 
-[Light Controller]: ./lightController\README.md
-[Lights Commander]: ./lightsCommander\README.md
-[VoffCon]: ./voffCon\README.md
+[Light Controller]: ./lightController/README.md
+[Lights Commander]: ./lightsCommander/README.md
+[VoffCon]: ./voffCon/README.md
