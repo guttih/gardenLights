@@ -1,4 +1,4 @@
-# gardenLights - voffcon
+# gardenLights - voffCon
 These are the files needed to give the lightsCommander commands from the [VoffCon] system
 
 
