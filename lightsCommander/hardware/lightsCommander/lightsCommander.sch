@@ -1,0 +1,303 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "Lights Commander"
+Date "2021-09-19"
+Rev "v1.0"
+Comp ""
+Comment1 "Repository: https://github.com/guttih/gardenLights"
+Comment2 "https://creativecommons.org/licenses/by/4.0/"
+Comment3 "Licence: CC BY 4.0"
+Comment4 "Author:Gudjon Holm Sigurdsson"
+$EndDescr
+$Comp
+L power:VCC #PWR03
+U 1 1 61483DE6
+P 4500 1350
+F 0 "#PWR03" H 4500 1200 50  0001 C CNN
+F 1 "VCC" H 4515 1523 50  0000 C CNN
+F 2 "" H 4500 1350 50  0001 C CNN
+F 3 "" H 4500 1350 50  0001 C CNN
+	1    4500 1350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4500 1500 4500 1350
+$Comp
+L power:GND #PWR04
+U 1 1 614847B2
+P 4500 1750
+F 0 "#PWR04" H 4500 1500 50  0001 C CNN
+F 1 "GND" H 4505 1577 50  0000 C CNN
+F 2 "" H 4500 1750 50  0001 C CNN
+F 3 "" H 4500 1750 50  0001 C CNN
+	1    4500 1750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4350 1700 4500 1700
+Wire Wire Line
+	4500 1700 4500 1750
+$Comp
+L power:PWR_FLAG #FLG01
+U 1 1 6148CCE5
+P 4850 1450
+F 0 "#FLG01" H 4850 1525 50  0001 C CNN
+F 1 "PWR_FLAG" H 4850 1623 50  0000 C CNN
+F 2 "" H 4850 1450 50  0001 C CNN
+F 3 "~" H 4850 1450 50  0001 C CNN
+	1    4850 1450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4850 1500 4850 1450
+$Comp
+L power:GNDPWR #PWR05
+U 1 1 6148E259
+P 4850 1700
+F 0 "#PWR05" H 4850 1500 50  0001 C CNN
+F 1 "GNDPWR" H 4854 1546 50  0000 C CNN
+F 2 "" H 4850 1650 50  0001 C CNN
+F 3 "" H 4850 1650 50  0001 C CNN
+	1    4850 1700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4500 1700 4850 1700
+Connection ~ 4500 1700
+$Comp
+L power:GND #PWR02
+U 1 1 6148ED1E
+P 3500 4050
+F 0 "#PWR02" H 3500 3800 50  0001 C CNN
+F 1 "GND" H 3505 3877 50  0000 C CNN
+F 2 "" H 3500 4050 50  0001 C CNN
+F 3 "" H 3500 4050 50  0001 C CNN
+	1    3500 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR01
+U 1 1 6148FD2F
+P 3500 2750
+F 0 "#PWR01" H 3500 2600 50  0001 C CNN
+F 1 "VCC" H 3515 2923 50  0000 C CNN
+F 2 "" H 3500 2750 50  0001 C CNN
+F 3 "" H 3500 2750 50  0001 C CNN
+	1    3500 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR06
+U 1 1 61490CEF
+P 6350 2900
+F 0 "#PWR06" H 6350 2750 50  0001 C CNN
+F 1 "VCC" H 6365 3073 50  0000 C CNN
+F 2 "" H 6350 2900 50  0001 C CNN
+F 3 "" H 6350 2900 50  0001 C CNN
+	1    6350 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR07
+U 1 1 6149169D
+P 6350 4400
+F 0 "#PWR07" H 6350 4150 50  0001 C CNN
+F 1 "GND" H 6355 4227 50  0000 C CNN
+F 2 "" H 6350 4400 50  0001 C CNN
+F 3 "" H 6350 4400 50  0001 C CNN
+	1    6350 4400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5250 3450 5350 3450
+Wire Wire Line
+	5250 3550 5450 3550
+Wire Wire Line
+	3650 3950 3400 3950
+Wire Wire Line
+	3650 4050 3500 4050
+Wire Wire Line
+	3400 3950 3400 4700
+Wire Wire Line
+	3650 2750 3500 2750
+Wire Wire Line
+	3350 2350 3350 3850
+Wire Wire Line
+	3350 3850 3650 3850
+NoConn ~ 5250 4550
+NoConn ~ 5250 4450
+NoConn ~ 5250 4350
+NoConn ~ 5250 4250
+NoConn ~ 5250 4150
+NoConn ~ 5250 4050
+NoConn ~ 5250 3950
+NoConn ~ 5250 3850
+NoConn ~ 5250 3750
+NoConn ~ 5250 3650
+NoConn ~ 3650 4550
+NoConn ~ 3650 4450
+NoConn ~ 3650 4350
+NoConn ~ 3650 4250
+NoConn ~ 3650 4150
+NoConn ~ 3650 3750
+NoConn ~ 3650 3650
+NoConn ~ 3650 3550
+NoConn ~ 3650 3450
+NoConn ~ 3650 3350
+NoConn ~ 3650 3250
+NoConn ~ 3650 3150
+NoConn ~ 3650 3050
+NoConn ~ 3650 2950
+NoConn ~ 3650 2850
+NoConn ~ 5250 3350
+NoConn ~ 5250 2950
+NoConn ~ 5250 3050
+NoConn ~ 5250 3150
+NoConn ~ 5250 3250
+Wire Wire Line
+	4350 1500 4500 1500
+Wire Wire Line
+	4850 1500 4500 1500
+Connection ~ 4500 1500
+Wire Wire Line
+	3550 1600 3550 1700
+$Comp
+L lightsCommander:Screw_Terminal_01x02 J1
+U 1 1 614D2F0F
+P 3150 1600
+F 0 "J1" H 3068 1275 50  0000 C CNN
+F 1 "Screw_Terminal_01x02" H 3068 1366 50  0000 C CNN
+F 2 "lightsCommander:Screw_Termianl_01x02" H 3200 1300 50  0001 C CNN
+F 3 "~" H 3150 1600 50  0001 C CNN
+	1    3150 1600
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3350 1600 3400 1600
+$Comp
+L power:PWR_FLAG #FLG0101
+U 1 1 614E15D9
+P 3400 1200
+F 0 "#FLG0101" H 3400 1275 50  0001 C CNN
+F 1 "PWR_FLAG" H 3400 1373 50  0000 C CNN
+F 2 "" H 3400 1200 50  0001 C CNN
+F 3 "~" H 3400 1200 50  0001 C CNN
+	1    3400 1200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3350 1500 3400 1500
+Wire Wire Line
+	3400 1200 3400 1500
+Connection ~ 3400 1500
+Wire Wire Line
+	3400 1500 3550 1500
+$Comp
+L power:PWR_FLAG #FLG02
+U 1 1 614E2AF2
+P 3400 1800
+F 0 "#FLG02" H 3400 1875 50  0001 C CNN
+F 1 "PWR_FLAG" H 3400 1973 50  0000 C CNN
+F 2 "" H 3400 1800 50  0001 C CNN
+F 3 "~" H 3400 1800 50  0001 C CNN
+	1    3400 1800
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3400 1800 3400 1600
+Connection ~ 3400 1600
+Wire Wire Line
+	3400 1600 3550 1600
+Wire Wire Line
+	3350 2350 5750 2350
+NoConn ~ 5900 3900
+Wire Wire Line
+	5600 2850 5600 3650
+Wire Wire Line
+	5600 2850 5250 2850
+Wire Wire Line
+	5750 3400 5750 2350
+Wire Wire Line
+	5750 3400 5900 3400
+Wire Wire Line
+	5600 3650 5900 3650
+Wire Wire Line
+	6350 2900 6350 3050
+Wire Wire Line
+	6350 4300 6350 4400
+Wire Wire Line
+	7100 3400 7100 4700
+Wire Wire Line
+	3400 4700 7100 4700
+Wire Wire Line
+	6800 3400 7100 3400
+Wire Wire Line
+	6850 3650 6850 2650
+Wire Wire Line
+	6800 3650 6850 3650
+Wire Wire Line
+	6800 3900 6950 3900
+Wire Wire Line
+	6950 3900 6950 2500
+$Comp
+L power:GND #PWR08
+U 1 1 614820D6
+P 5500 2050
+F 0 "#PWR08" H 5500 1800 50  0001 C CNN
+F 1 "GND" H 5505 1877 50  0000 C CNN
+F 2 "" H 5500 2050 50  0001 C CNN
+F 3 "" H 5500 2050 50  0001 C CNN
+	1    5500 2050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5350 3450 5350 2500
+Wire Wire Line
+	5350 2500 6950 2500
+Wire Wire Line
+	5450 2650 5450 3550
+Wire Wire Line
+	5450 2650 6850 2650
+Wire Wire Line
+	5250 2750 5250 2050
+Wire Wire Line
+	5250 2050 5500 2050
+$Comp
+L lightsCommander:ESP32-DEVKITC-32D U1
+U 1 1 6148D9F1
+P 4450 3650
+F 0 "U1" H 4450 4817 50  0000 C CNN
+F 1 "ESP32-DEVKITC-32D" H 4450 4726 50  0000 C CNN
+F 2 "lightsCommander:ESP32-DevKitC" H 4450 3650 50  0001 L BNN
+F 3 "Espressif Systems" H 4450 3650 50  0001 L BNN
+F 4 "4" H 4450 3650 50  0001 L BNN "Field4"
+	1    4450 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L lightsCommander:NRF24L01 U2
+U 1 1 61494EF9
+P 6500 3850
+F 0 "U2" H 6417 4831 50  0000 C CNN
+F 1 "NRF24L01" H 6417 4740 50  0000 C CNN
+F 2 "lightsCommander:nRF24L01_Breakout_longRange" H 5650 3400 50  0001 L CIN
+F 3 "http://www.nordicsemi.com/eng/content/download/2730/34105/file/nRF24L01_Product_Specification_v2_0.pdf" H 6350 4050 50  0001 C CNN
+	1    6500 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L lightsCommander:HLK-PM03 PS1
+U 1 1 6149E179
+P 3950 1600
+F 0 "PS1" H 3950 1925 50  0000 C CNN
+F 1 "HLK-PM03" H 3950 1834 50  0000 C CNN
+F 2 "lightsCommander:Converter_ACDC_HiLink_HLK-PMxx" H 3950 1300 50  0001 C CNN
+F 3 "http://www.hlktech.net/product_detail.php?ProId=59" H 4350 1250 50  0001 C CNN
+	1    3950 1600
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

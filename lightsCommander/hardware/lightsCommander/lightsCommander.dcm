@@ -1,0 +1,49 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ESP32-DEVKITC-32D
+F Espressif Systems
+$ENDCMP
+#
+$CMP HLK-PM01
+D Compact AC/DC board mount power module 3W 5V
+K AC/DC module power supply
+F http://www.hlktech.net/product_detail.php?ProId=54
+$ENDCMP
+#
+$CMP HLK-PM03
+D Compact AC/DC board mount power module 3W 3V3
+K AC/DC module power supply
+F http://www.hlktech.net/product_detail.php?ProId=59
+$ENDCMP
+#
+$CMP HLK-PM12
+D Compact AC/DC board mount power module 3W 12V
+K AC/DC module power supply
+F http://www.hlktech.net/product_detail.php?ProId=56
+$ENDCMP
+#
+$CMP HLK-PM24
+D Compact AC/DC board mount power module 3W 24V
+K AC/DC module power supply
+F http://www.hlktech.net/product_detail.php?ProId=81
+$ENDCMP
+#
+$CMP NRF24L01
+D Ultra low power 2.4GHz RF Transceiver, QFN-20
+K Low Power RF Transciever
+F http://www.nordicsemi.com/eng/content/download/2730/34105/file/nRF24L01_Product_Specification_v2_0.pdf
+$ENDCMP
+#
+$CMP Screw_Terminal_01x02
+D Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)
+K screw terminal
+F ~
+$ENDCMP
+#
+$CMP nRF24L01P
+D nRF24L01+, Ultra low power 2.4GHz RF Transceiver, QFN20 4x4mm
+K Low Power RF Transciever
+F http://www.nordicsemi.com/eng/content/download/2726/34069/file/nRF24L01P_Product_Specification_1_0.pdf
+$ENDCMP
+#
+#End Doc Library
